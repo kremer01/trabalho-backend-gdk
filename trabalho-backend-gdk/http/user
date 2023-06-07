@@ -1,0 +1,31 @@
+# POST http://localhost:3000/login
+# Content-Type: application/json
+
+# {
+#   "name": "gustavo",
+#   "email": "gustavo@email.com",
+#   "password": "Senhagustavo"
+# }
+
+# GET http://localhost:3000/users
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyfSwiaWF0IjoxNjg1MDY4MTk4fQ.UrI8AwmOXcI4nzMTUS_jniNWXIMs7zcIVEYJsGgeDJI
+
+# POST http://localhost:3000/user
+# Content-Type: application/json
+
+# {
+#   "name": "gustavo",
+#   "email": "gustavo@email.com",
+#   "password": "Senhagustavo"
+# }
+
+# PUT http://localhost:3000/user/2
+# Content-Type: application/json
+
+# {
+#   "name": "edu",
+#   "email": "edu@email.com",
+#   "password": "Senhaedu"
+# }
+
+#DELETE http://localhost:3000/user/1
